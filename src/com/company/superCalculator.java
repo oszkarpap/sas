@@ -2,7 +2,9 @@ package com.company;
 
 public class superCalculator extends calculator{
 
-    public double sqaure(int a, int b){
+    private superCalculator(){}
+
+    public static double square(int a, int b){
 
         if(a==0){
             return 0;

@@ -6,7 +6,7 @@ public class calculator {
         return a+b;
     }
 
-    public int kivon (int a, int b){
+    public static int kivon (int a, int b){
         return a-b;
     }
 

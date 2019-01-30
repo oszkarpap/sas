@@ -29,6 +29,8 @@ public class Main {
         System.out.println(hashMap);
 
 
+        calculator.kivon(3,4);
+
         calculator calc = new calculator();
 
         System.out.println(calc.kivon(4,7));
@@ -37,14 +39,15 @@ public class Main {
         System.out.println(calc.osztas(9,3));
 
 
-        superCalculator superCalculator = new superCalculator();
 
-        System.out.println(superCalculator.sqaure(3,3));
+
+        System.out.println(superCalculator.square(3,3));
         System.out.println(superCalculator.kivon(10,1));
 
 
-        System.out.println(superCalculator.sqaure(0,2));
-        System.out.println(superCalculator.sqaure(5,1));
+        System.out.println(superCalculator.square(0,2));
+        System.out.println(superCalculator.square(5,1));
+
 
     }
 }
