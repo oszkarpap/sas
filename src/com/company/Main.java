@@ -35,5 +35,16 @@ public class Main {
         System.out.println(calc.osszead(5,5));
         System.out.println(calc.szorzas(4,3));
         System.out.println(calc.osztas(9,3));
+
+
+        superCalculator superCalculator = new superCalculator();
+
+        System.out.println(superCalculator.sqaure(3,3));
+        System.out.println(superCalculator.kivon(10,1));
+
+
+        System.out.println(superCalculator.sqaure(0,2));
+        System.out.println(superCalculator.sqaure(5,1));
+
     }
 }
