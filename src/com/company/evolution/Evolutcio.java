@@ -25,6 +25,8 @@ public class Evolutcio {
 
         System.out.println(rgb.r+" "+rgb.g+" "+rgb.b);
 
+        f1.setNev("Sas");
+
     }
 
 
