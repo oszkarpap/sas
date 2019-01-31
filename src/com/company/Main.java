@@ -24,6 +24,16 @@ public class Main {
 
         }
 
+        robotJatekos robotJatekos = new robotJatekos();
+
+        felhasznaloJatekos felhasznaloJatekos = new felhasznaloJatekos("Saci");
+        felhasznaloJatekos.lep();
+
+        asztal asztal01 = new asztal();
+
+        robotJatekos.lep();
+        robotJatekos.setMoney(20);
+        System.out.println(robotJatekos.getMoney());
 
 
         System.out.println(hashMap);
