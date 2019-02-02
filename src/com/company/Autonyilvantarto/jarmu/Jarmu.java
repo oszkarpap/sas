@@ -28,4 +28,9 @@ public abstract class Jarmu {
 			return rendszam.equals(jarmu.rendszam);
 		}else return false;
 	}
+
+	@Override
+	public int hashCode() {
+		return super.hashCode();
+	}
 }

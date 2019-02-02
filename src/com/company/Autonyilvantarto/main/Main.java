@@ -8,8 +8,7 @@ import com.company.Autonyilvantarto.stack.Stack;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.*;
 
 
 public class Main {
@@ -36,7 +35,9 @@ public class Main {
 
 		//(grafikus megjelenites 01);
 		BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
-		Collection<Auto> autok= new ArrayList<>();
+		//Collection<Auto> autok= new ArrayList<>();
+		//Collection<Auto> autok = new HashSet<>();
+		Collection<Auto> autok = new TreeSet<>(Auto.AJTO_COMPARATOR);
 		System.out.println("Irja be a parancsot: ");
 		try {
 			while(true){
