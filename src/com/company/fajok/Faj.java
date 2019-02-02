@@ -76,10 +76,16 @@ public abstract class Faj {
 	}
 	
 	@Override
-	public String toString() {
-		return nev;
-	}
-	
+	public String toString() { 		return nev; 	}
+
+
+
+
 	public abstract Eloleny ujEgyed();
+
+
+
+
+
 
 }

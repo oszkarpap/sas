@@ -12,8 +12,10 @@ public class Evolucio {
 
 	public static final Random RAND=new Random();
 	public static final int KEZDETI_ELOLENYEK=100;
-	private static final int KOROK_SZAMA = 3;
+	private static final int KOROK_SZAMA = 2;
 	private static ArrayList<Eloleny> elolenyek;
+
+
 	public static void main(String[] args) {
 		elolenyek=  new ArrayList<>();
 		for(int i=0; i<KEZDETI_ELOLENYEK; i++){
@@ -30,6 +32,8 @@ public class Evolucio {
 		
 		System.out.println("Végül:");
 		kiiratas();
+		System.out.println(RAND.nextBoolean());
+
 		
 		
 		
@@ -95,7 +99,7 @@ public class Evolucio {
 //				fields[i].setAccessible(true);
 //				System.out.println(fields[i].getName() + " : " +fields[i].get(roka1));
 //			} catch (IllegalArgumentException | IllegalAccessException e) {
-//				// TODO Auto-generated catch block
+//
 //				e.printStackTrace();
 //			}
 //		}
